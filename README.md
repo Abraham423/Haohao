@@ -5,4 +5,4 @@
 聚类分析尝试了k-means，密度聚类，效果都不好。将样本实际分布plot之后发现正负样本（每次打印两幅图，上图显示样本实际分布，下图显示聚类效果）糅杂在一起。
 综合分析，认为数据质量不好是模型效果不佳的主要原因。
 #
-数据包括5个，ypp_user_info_dimension包含了所有用户的信息，ypp_dongtai_info_dimension是短视频动态信息，dongtai_wanghao是前者的扩充版本，包含更多信息，behavior_reply和behavior_zan分别是动态回复和动态点赞相关信息（没怎么用）
+数据包括以下几个：ypp_user_info_dimension包含了所有用户的信息，ypp_dongtai_info_dimension是短视频动态信息，dongtai_wanghao是前者的扩充版本，包含更多信息，behavior_reply，behavior_dashang和behavior_zan分别是动态回复，打赏和动态点赞相关信息（没怎么用），dongtai_id是产品挑出来的作为正样本的动态ID
